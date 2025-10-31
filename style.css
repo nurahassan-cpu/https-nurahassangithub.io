@@ -1,0 +1,115 @@
+/* ==== Global Styles ==== */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: pink;
+  color: #222;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #007bff;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* ==== Hero Section ==== */
+.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: linear-gradient(135deg,blue, #134758);
+  color: white;
+}
+
+.hero .profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid white;
+  margin-bottom: 1rem;
+}
+
+.hero h2 {
+  font-size: 2rem;
+}
+
+.hero span {
+  color:white;
+}
+
+/* ==== Section Headings ==== */
+section {
+  padding: 2rem 1.5rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  color:gree;
+  margin-bottom: 1rem;
+}
+
+/* ==== Skills ==== */
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.skills-list li {
+  background-color: #0400ff;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+/* ==== Projects ==== */
+.project-card {
+  background: white;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* ==== Contact ==== */
+#contact p {
+  text-align: center;
+}
+
+#contact a {
+  color: #007bff;
+}
+
+/* ==== Footer ==== */
+footer {
+  text-align: center;
+  background-color: #222;
+  color: white;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
